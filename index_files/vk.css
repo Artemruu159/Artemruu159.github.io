@@ -1,0 +1,174 @@
+* {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: tahoma,arial,verdana,sans-serif;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255,255,255);
+}
+
+body {
+  position: relative;
+}
+
+.head {
+  width: 100%;
+  vertical-align: top;
+  border: none;
+  color: #fff;
+  background: #597ba5;
+  font-weight: 700;
+  padding: 17px 20px 42px;
+  font-size: 1.09em;
+  height: 24px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.logo {
+  position: absolute;
+  width: 132px;
+  height: 24px;
+  background: url(../img/logo.png) 0px 0px no-repeat;
+  background-size: 132px 24px;
+  display: block;
+}
+
+.auth_items {
+  padding: 5px 0px 0px;
+  color: #e8eff7;
+}
+
+.auth_items a.head_name {
+  font-size: 11px;
+  color: #fff;
+  font-weight: 700;
+}
+.auth_items a {
+  height: 11px;
+  margin: 0px;
+  font-size: 11px;
+  color: #e8eff7;
+  font-weight: 400;
+}
+.fl_r {
+  float: right;
+}
+
+a {
+  color: #2a5885;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.info_line {
+    padding: 19px 10px;
+    background: #eff1f3;
+    height: 14px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.box_login {
+    width: 158px;
+    padding: 0px 135px;
+    padding: 0px;
+    margin: 15px auto 0 auto;
+}
+
+.box_login .form_header {
+  color: #45688e;
+  padding: 18px 0px 8px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.fakeinput, div[contenteditable=true], input.big_text, input.file, input.search, input.text, input[type=button], input[type=password], input[type=search], input[type=submit], input[type=text], input[type~=email], input[type~=password], input[type~=search], input[type~=text], textarea {
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    outline: none;
+    box-shadow: none;
+}
+.form_input {
+    width: 150px;
+    height: 19px;
+}
+input {
+    border: 1px solid #c0cad5;
+    padding: 4px;
+}
+.popup_login_btn {
+    margin-top: 20px;
+    width: 160px;
+}
+
+
+#install_allow {
+    margin: 0;
+}
+.button_big.flat_button {
+    line-height: 17px;
+}
+.popup_login_btn {
+    width: 160px;
+}
+.button_blue button, .button_gray button, .button_light_gray button, .flat_button {
+    padding: 9px 16px 6px;
+    margin: 0;
+    font-size: 12.5px;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Open Sans,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #5e81a8;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.flat_button:hover {
+    background-color: #6888ad;
+    text-decoration: none;
+}
+
+#quick_forgot {
+    font-size: 11px;
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 12px 0px 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.oauth_error {
+    font-weight: 700;
+    margin: 20px 0px 0px;
+    color: #c56851;
+    background-color: #ffefe8;
+    padding: 13px 11px;
+    margin-bottom: 4px;
+    font-size: 11px;
+    text-align: center;
+}
